@@ -1,5 +1,5 @@
 
-const data=[
+export const data=[
   
     {
       "imdbID": "tt0468569",
@@ -109,36 +109,16 @@ const data=[
       "Year": "2014",
       "Poster": "https://ia.media-imdb.com/images/M/MV5BMTkwMzM2NDQ1Nl5BMl5BanBnXkFtZTgwMzAyODExMTE@._V1_UX182_CR0,0,182,268_AL_.jpg"
     },
-    {
-      "imdbID": "tt0121765",
-      "Title": "Star Wars: Episode II - Attack of the Clones",
-      "Year": "2002",
-      "Poster": "https://ia.media-imdb.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_UX182_CR0,0,182,268_AL_.jpg"
-    },
-    {
-      "imdbID": "tt0121765",
-      "Title": "Attack of the Clones",
-      "Year": "2002",
-      "Poster": "https://ia.media-imdb.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_UX182_CR0,0,182,268_AL_.jpg"
-    },
-    {
-      "imdbID": "tt2275656",
-      "Title": "Star Wars: Threads of Destiny",
-      "Year": "2014",
-      "Poster": "https://ia.media-imdb.com/images/M/MV5BMTkwMzM2NDQ1Nl5BMl5BanBnXkFtZTgwMzAyODExMTE@._V1_UX182_CR0,0,182,268_AL_.jpg"
-    },
+  
+  
+   
     {
       "imdbID": "tt6438108",
       "Title": "Star Wars: Lost Horizons",
       "Year": "2018",
       "Poster": "https://ia.media-imdb.com/images/M/MV5BMjQ1MzcxNjg4N15BMl5BanBnXkFtZTgwNzgwMjY4MzI@._V1_UX182_CR0,0,182,268_AL_.jpg"
     },
-    {
-      "imdbID": "tt0468569",
-      "Title": "The Dark Knight",
-      "Year": "2008",
-      "Poster": "https://ia.media-imdb.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg"
-    },
+   
     {
       "imdbID": "tt2076340",
       "Title": "Star Wars: Star Warriors ",
