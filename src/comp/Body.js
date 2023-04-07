@@ -19,7 +19,7 @@ export const Body = () =>{
     
     if(allMovies === 0 ) return <h1>data not found</h1>
 
-    if(filterMovie === 0) return <h1>movie not found</h1>;
+    //if(filterMovie === 0) return <h1>movie not found</h1>;
 
     return (allMovies.length === 0 )? <Shimmer /> : (
         <>

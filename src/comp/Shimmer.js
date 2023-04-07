@@ -1,5 +1,6 @@
 const Shimmer = () => {
-    return (<h1>Shimmer lodding.....</h1>  );
+    return <div className="movie-card">{Array(20).fill("").map(()=>(<div className="shimmer-card"></div>))}</div>
+        
 }
  
 export default Shimmer;

@@ -3,8 +3,9 @@ import './App.css';
 import { Navbar } from "./comp/Navbar";
 import { Body } from "./comp/Body";
 import { Footer } from "./comp/Footer"
-
-
+import {createBrowserRouter , RouterProvider} from "react-router-dom"
+import { About } from './comp/About';
+import { Error } from './comp/Error';
 
 
 const ApplayOut = () =>{
@@ -19,6 +20,17 @@ const ApplayOut = () =>{
     </>
   )
 }
+const appRouter = createBrowserRouter([
+  {
+    path:"/",
+    element:<ApplayOut/>,
+    errorElement:<Error/>
+  },
+  {
+    path:"/about",
+    element:<About />
+  }
+])
 
 
 
@@ -26,7 +38,8 @@ const ApplayOut = () =>{
 function App() {
  
   return (
-   <ApplayOut />
+  //  <ApplayOut />
+  <RouterProvider router={appRouter} />
   );
 }
 
